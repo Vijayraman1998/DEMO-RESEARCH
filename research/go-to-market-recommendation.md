@@ -141,3 +141,14 @@ By judgement, roughly **75–85% of internal audit effort** in a manufacturing c
 - Services companies
 
 The trade-off: these have less audit pain (IT services) or stronger incumbents (BFSI). Recommendation: keep pharma and auto as the first sectors, scope the product as **"remote / desk audit automation"**, and partner with CA firms for any physical component.
+
+---
+
+## 8. Updated starting focus (added 14 Oct 2026)
+
+The founders chose **tax audit for the tech industry** as the starting wedge. See `tax-audit-tech-industry.md`.
+
+**New sequence:**
+1. Tax audit (Form 3CD auto-preparation plus continuous tax-control testing) for GCCs, mid-size IT/ITES and SaaS companies
+2. Full internal audit for the same tech customers
+3. Tax audit, then full internal audit, for pharma and auto components (sections 6–7 above)

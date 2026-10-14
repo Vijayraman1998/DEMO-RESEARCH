@@ -36,6 +36,8 @@ Source: [TaxGuru](https://taxguru.in/company-law/internal-audit-applicability-pr
 
 ## 2. TAM and SAM
 
+> **Superseded:** see `internal-audit-tam-sam.md` for the full-internal-audit TAM/SAM. The figures below cover only finance and tax controls.
+
 No public report sizes India's internal audit market on its own, so these are **bottom-up estimates**. Every assumption is listed so you can change it.
 
 ### Data points

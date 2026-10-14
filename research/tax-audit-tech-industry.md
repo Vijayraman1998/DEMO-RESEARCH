@@ -68,6 +68,8 @@ Existing tools (KDK, Computax, BDO's tax-audit tool, AssureAI) mostly help the *
 
 ## 4. Sizing the wedge: tax audit in tech
 
+> **Superseded:** see `tam-sam-internal-tax-audit-tech.md` for the updated three-method sizing (TAM ≈ ₹1,300 cr spend / ₹470 cr software; SAM ≈ ₹325 cr; SOM ≈ ₹9–13 cr ARR).
+
 ### Segments (assumptions)
 
 | Segment | Entities | Basis |

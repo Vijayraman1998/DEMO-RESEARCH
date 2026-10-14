@@ -89,3 +89,31 @@ Around half of large Indian companies outsource or co-source internal audit. CA 
 - **Tax-compliance vendors** (Clear, Masters India, IRIS) could add audit features. Be clearly positioned as *independent assurance*, not filing.
 - **Big 4 bundling** at the top end.
 - Indian corporate buyers are price-sensitive.
+
+---
+
+## 6. Which sector to target first (added 14 Oct 2026)
+
+*These scores are judgement calls, not market data. Validate them in customer interviews.*
+
+Each sector is scored 1–5 (5 is best) on: how many audit areas it has (plants, inventory, vendors, locations); regulatory pressure; how many companies fall in the ₹500–5,000 cr band; how easy its data is to access (ERP maturity); and budget and speed of buying.
+
+| Sector | Audit intensity | Regulatory pressure | Mid-large company count | Data access | Budget / speed | **Total** | Notes |
+|--------|:---:|:---:|:---:|:---:|:---:|:---:|-------|
+| **Auto & auto components** | 5 | 3 | 5 | 4 | 4 | **21** | Multi-plant. Heavy P2P (thousands of suppliers), inventory, scrap, job-work and GST stock transfers. Mostly SAP/Oracle. Clusters in Pune, Chennai, NCR and Gujarat. |
+| **Pharma & medical devices** | 5 | 5 | 4 | 4 | 4 | **22** | Plants plus distributors. Inventory, batch and expiry write-offs, regulator-driven controls (USFDA, CDSCO), trade schemes and discounts. Good margins mean budget. Clusters in Hyderabad, Ahmedabad, Mumbai and Baddi. |
+| **Hospitals / healthcare chains** | 5 | 4 | 3 | 3 | 3 | **18** | Many locations, billing and revenue leakage, insurance and TPA claims, pharmacy inventory, doctor payouts. Fewer companies in the band and messier hospital systems. |
+| Chemicals / engineering / capital goods | 4 | 3 | 4 | 3 | 3 | 17 | Similar to auto, with more Tally and older ERPs |
+| FMCG / consumer durables | 4 | 3 | 3 | 4 | 4 | 18 | Distribution, schemes, multi-state GST. Larger players are often Big 4 or SAP-locked. |
+| NBFCs / HFCs | 4 | 5 | 3 | 4 | 3 | 19 | RBIA mandate, but specialised (loan audits) and eTHIC competes |
+| Retail / QSR chains | 5 | 2 | 3 | 3 | 3 | 16 | Store audits and cash. Thin margins. |
+| **Software / IT services** | 2 | 2 | 3 | 5 | 3 | **15** | Little inventory or plant complexity. Internal audit is mostly payroll, contracts, revenue recognition and ITGC. Many are MNC or US-listed and already use SOX tools. |
+
+### Recommendation
+
+1. **Start with pharma and auto components together.** Both are manufacturing, so one product core works for both: P2P, inventory, O2C, R2R, payroll, fixed assets and GST. Both have many mandated companies in the ₹500–5,000 cr band, with SAP/Oracle data and real budgets. Pick **one city cluster** (for example Pune for auto, or Hyderabad/Ahmedabad for pharma) to win references fast.
+2. **Next: hospital chains.** Add healthcare modules (billing leakage, TPA claims, pharmacy stock, doctor payouts). Pharma references help here.
+3. **Later: NBFCs/HFCs, then FMCG and retail.**
+4. **Deprioritise software / IT services.** The pain is low, they already have SOX tools, and the audit universe is small.
+
+**First 20 discovery calls:** about 8 pharma companies, 8 auto component companies, and 4 internal audit / CA firms that serve these sectors.

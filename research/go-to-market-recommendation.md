@@ -149,6 +149,6 @@ The trade-off: these have less audit pain (IT services) or stronger incumbents (
 The founders chose **tax audit for the tech industry** as the starting wedge. See `tax-audit-tech-industry.md`.
 
 **New sequence:**
-1. Tax audit (Form 3CD auto-preparation plus continuous tax-control testing) for GCCs, mid-size IT/ITES and SaaS companies
+1. **Internal tax audit (pre-audit before the external statutory and 44AB tax audit)** for GCCs, mid-size IT/ITES and SaaS companies. The buyer is the company (CFO / tax head / internal audit head). The external CA receives the audit-ready pack.
 2. Full internal audit for the same tech customers
 3. Tax audit, then full internal audit, for pharma and auto components (sections 6–7 above)

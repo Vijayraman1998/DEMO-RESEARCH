@@ -4,16 +4,36 @@
 
 ---
 
-## 1. What "tax audit" can mean, and what to build
+## 1. Positioning: internal tax audit *before* the external audit
 
-| Meaning | Who does it | Product role |
-|---------|-------------|--------------|
-| **Statutory tax audit, Sec 44AB** (Form 3CA/3CB + **Form 3CD**) | Must be signed by an **external CA**. 3CD has 40+ clauses (MSME payments under 43B(h), TDS defaults, GST reporting, loans and more). | **Tool for the CA firm and the company's tax team**: auto-prepares 3CD clauses and annexures from ERP data and flags exceptions. The CA still signs. |
-| **Internal tax audit / tax-compliance review** | The company's internal audit or tax team, or an outsourced firm | **Continuous testing of tax controls**: GST, TDS, transfer pricing, cross-charge, export refunds |
+**Decision (14 Oct 2026):** the startup starts with an **internal tax audit**, a pre-audit or readiness review run *by or for the company* **before** the external audits. It finds and fixes tax errors, prepares clean schedules and evidence, and reduces adverse remarks and disallowances when the external CA does the statutory audit and the Sec 44AB tax audit (Form 3CD).
 
-**Recommendation:** build one data engine that serves both. Year-round tax-control testing feeds directly into 3CD preparation at year end. That gives two buyers (the company and its CA firm) and recurring use.
+| | **Our product: internal tax audit (pre-audit)** | External tax audit (Sec 44AB / Form 3CD) and statutory audit |
+|---|---|---|
+| Who runs it | The company's tax, finance or internal audit team, using our software | Independent external CA (must sign) |
+| When | Continuous or quarterly, plus an intensive year-end pre-audit (about Jan–Jul) | After year end. The 3CD report is due about 30 Sep, with transfer-pricing cases later † |
+| Goal | Find and fix issues *before* the auditor or department finds them | Independent opinion and reporting |
+| Buyer | **CFO / Head of Tax / Head of Internal Audit** | — (the external CA receives our "audit-ready pack") |
 
-Existing 3CD tools are mostly CA-practice software (KDK, Computax), BDO's tax-audit tool and AssureAI. They automate *form filling*, not tech-industry tax logic or continuous testing. ([BDO](https://www.bdo.in/en-gb/services/bdo-digital/technology-products-and-solutions/compliance/tax-audit), [KDK](https://www.kdksoftware.com/blog/simplifying-gst-compliance-reporting-in-form-3cd-tax-audit-report-with-express-gst/), [Computax](https://computaxonline.com/product/audit-report-software), [ICAI AI use cases](https://ai.icai.org/usecases_details.php?id=286))
+**Value to the customer:**
+- **Fewer disallowances.** Examples: 43B(h) MSME payments, and 40(a)(i)/(ia) when TDS is not deducted on payments, including foreign ones † (both are reported in 3CD).
+- **Fewer adverse remarks** in Form 3CD and the auditor's report, and fewer later notices.
+- **GST refunds and ITC protected**: export refunds, cross-charge, reverse charge.
+- **Faster, cheaper external audit.** The CA gets reconciled schedules and evidence instead of raw ledgers.
+
+**The external CA's role:** a *recipient* of the audit-ready pack and a possible referral partner. The CA is not the buyer.
+
+### Annual cycle for an Indian tech company (FY Apr–Mar) †
+
+| Period | Internal tax audit activity (our product) | External event |
+|--------|-------------------------------------------|----------------|
+| Monthly / quarterly | GST (GSTR-1/3B/2B, export LUT and refunds, cross-charge, reverse charge), TDS returns, Sec 195 / 15CA-CB foreign payments, intercompany invoicing | GST and TDS filings |
+| Jan–Mar | Pre-close review: provisions, TDS on year-end accruals, MSME dues (43B(h)), related-party and TP data | — |
+| Apr–Jul | **Year-end pre-audit**: draft 3CD schedules, exception list, fix and document, then hand the audit-ready pack to the CA | Statutory audit |
+| Aug–Oct | Support CA queries, TP documentation, track open items | Sec 44AB tax audit report, TP report (Form 3CEB), ITR |
+| Ongoing | Notice tracker, root-cause fixes | Assessments and notices |
+
+Existing tools (KDK, Computax, BDO's tax-audit tool, AssureAI) mostly help the **external CA fill in 3CD**. Few, if any, offer a **company-side, continuous internal tax audit** built for tech-industry tax issues. That gap is the opening. ([BDO](https://www.bdo.in/en-gb/services/bdo-digital/technology-products-and-solutions/compliance/tax-audit), [KDK](https://www.kdksoftware.com/blog/simplifying-gst-compliance-reporting-in-form-3cd-tax-audit-report-with-express-gst/), [Computax](https://computaxonline.com/product/audit-report-software), [ICAI AI use cases](https://ai.icai.org/usecases_details.php?id=286))
 
 ---
 
@@ -66,10 +86,10 @@ Smaller tech companies (thousands, above the 44AB threshold) are reachable only 
 |-------|-------------|-------|
 | **TAM (services spend)** | 3,500 × about ₹40 lakh per year on tax audit, TP study, GST reviews and refund work, and internal tax reviews (assumption) | **≈ ₹1,400 cr (~$160M)** |
 | **TAM (software)** | 3,500 × ₹12 lakh ACV (assumption) | **≈ ₹420 cr (~$48M)** |
-| **SAM** | GCCs + mid IT services (~3,000 × ₹10 lakh = ₹300 cr), plus small tech companies' 44AB audits reached through CA firms (~20,000 × ₹25,000 = ₹50 cr) | **≈ ₹350 cr (~$40M)** |
-| **SOM (about 3 years)** | 60–100 direct customers × ₹10 lakh, plus 10–15 CA-firm partners | **≈ ₹8–13 cr ARR** |
+| **SAM** | Company-side internal tax audit for GCCs + mid IT/ITES services (~3,000 × ₹10 lakh). The CA-firm channel is no longer counted, because the buyer is the company. | **≈ ₹300 cr (~$34M)** |
+| **SOM (about 3 years)** | 60–100 direct customers × ₹10 lakh | **≈ ₹6–10 cr ARR** |
 
-**What this means:** the tech tax-audit wedge is **small but focused**, about 13% of the full internal audit SAM (≈ ₹2,600 cr in `internal-audit-tam-sam.md`). Use it to win the first 50–100 customers and build the data engine, then expand:
+**What this means:** the tech tax-audit wedge is **small but focused**, about 11–12% of the full internal audit SAM (≈ ₹2,600 cr in `internal-audit-tam-sam.md`). Use it to win the first 50–100 customers and build the data engine, then expand:
 
 1. Full internal audit for the same tech customers (payroll, procurement, revenue/contracts, ITGC)
 2. Tax audit for pharma and auto
@@ -115,24 +135,24 @@ From general knowledge †; verify revenue and the current tax/internal audit se
 
 These have heavy TP, GST export refund and 195 TDS exposure. Examples by type †: Freshworks, Chargebee, BrowserStack, Postman, Druva, Darwinbox-type companies. Verify Indian entity revenue on Tracxn or MCA.
 
-### d) Channel: CA and tax firms that audit tech companies
+### d) External CA / tax firms: referral partners, not buyers
 
-- Mid-tier tax firms in Bengaluru, Pune and Hyderabad that handle GCC and SaaS compliance
-- Their pain: 3CD preparation crunch every September–October, plus refund and TP documentation
+- They receive the audit-ready pack and benefit from shorter audits, so they can refer clients.
+- They are not the target buyer.
 
 ### First 20 discovery calls
 
 - 8 GCC finance or tax heads
 - 6 mid-size IT company CFOs or tax heads
 - 3 SaaS company finance controllers
-- 3 tax or CA firm partners
+- 3 heads of internal audit at tech companies (to test the internal-audit buyer)
 
 ---
 
-## 6. MVP scope for "Tax Audit Copilot for Tech"
+## 6. MVP scope for "Internal Tax Audit (pre-audit) for Tech"
 
 1. **Connectors:** NetSuite, SAP, Oracle, Zoho Books, Tally †; GST portal data; TDS (TRACES) returns
-2. **Form 3CD auto-preparation:** clause-wise schedules (43B(h) MSME, TDS defaults, GST reporting, related parties), exception flags, a draft for CA review
+2. **Pre-audit of Form 3CD items:** clause-wise schedules (43B(h) MSME, 40(a)(i)/(ia) TDS disallowances, GST reporting, related parties), exception flags with fix workflow, and an audit-ready pack for the external CA
 3. **GST export module:** LUT tracking, Rule 89(4) refund computation, flags for intermediary-risk contracts, refund claim pack
 4. **Cross-charge module:** allocation of head-office costs to state GSTINs, ISD distribution, documentation
 5. **Foreign payments module:** Sec 195 / 15CA-CB checks, DTAA rate validation, RCM on imported services

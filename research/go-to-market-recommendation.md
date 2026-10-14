@@ -117,3 +117,27 @@ Each sector is scored 1–5 (5 is best) on: how many audit areas it has (plants,
 4. **Deprioritise software / IT services.** The pain is low, they already have SOX tools, and the audit universe is small.
 
 **First 20 discovery calls:** about 8 pharma companies, 8 auto component companies, and 4 internal audit / CA firms that serve these sectors.
+
+---
+
+## 7. Constraint: the startup does not want to do physical audits (added 14 Oct 2026)
+
+**Key point:** the startup sells **software**, not audit services. Physical work (stock counts, plant and branch visits, asset tagging) stays with the customer's in-house internal audit team or its outsourced CA firm, as it does today. Most internal audit work is **data and document work**, and that is the part the product automates.
+
+| Audit area in pharma / auto | Physical work needed? | Who does it | What the product does |
+|-----------------------------|-----------------------|-------------|------------------------|
+| P2P, O2C, R2R, payroll, GST/TDS, treasury | No, fully data and document based | Product (automated) | Full-population tests, document AI, working papers |
+| ITGC / SoD / audit trail | No | Product | Access and edit-log analytics |
+| Inventory | Partly: the count itself is physical | Customer's staff or CA firm counts | Imports count sheets, reconciles them to the books, flags variances, and analyses slow-moving, expired and write-off stock |
+| Fixed assets | Partly: tag verification | Customer or CA firm | Reconciles the asset register, checks capitalisation and depreciation |
+| Plant / branch operational audits | Yes | Customer or CA firm | Mobile checklist with photo and geo-tag evidence, which flows into the same report |
+
+By judgement, roughly **75–85% of internal audit effort** in a manufacturing company is data and document work the product can cover. The physical 15–25% stays with people.
+
+**If you want minimal physical exposure even in customer conversations,** these sectors are most remote-auditable:
+- NBFCs / HFCs and fintech lenders (loan files and systems)
+- Insurance
+- E-commerce / D2C and new-age tech companies
+- Services companies
+
+The trade-off: these have less audit pain (IT services) or stronger incumbents (BFSI). Recommendation: keep pharma and auto as the first sectors, scope the product as **"remote / desk audit automation"**, and partner with CA firms for any physical component.
